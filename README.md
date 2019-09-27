@@ -56,6 +56,6 @@ pathogen-infect /home/user/repositories/github.com/alexherbo2/pad-number.kak
 - `pad-number`: Pad number with `[n]` leading zeroes.
 
 [Kakoune]: https://kakoune.org
-[IRC]: https://webchat.freenode.net?channels=kakoune
+[IRC]: https://webchat.freenode.net/#kakoune
 [IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
 [Pathogen]: https://github.com/alexherbo2/pathogen.kak
