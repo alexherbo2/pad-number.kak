@@ -1,61 +1,20 @@
-# Pad number
+# pad-number.kak
 
-[![IRC][IRC Badge]][IRC]
-
-###### [Usage](#usage) | [Documentation](#commands) | [Contributing](CONTRIBUTING)
-
-> [Kakoune] extension to pad numbers.
+Pad numbers with leading zeros.
 
 ## Installation
 
-### [Pathogen]
-
-``` kak
-pathogen-infect /home/user/repositories/github.com/alexherbo2/pad-number.kak
-```
+Add [`pad-number.kak`](rc/pad-number.kak) to your autoload or source it manually.
 
 ## Usage
 
-- Select numbers.
-- Enter `:pad-number`.
+Select a number or multiple numbers and call `pad-number`.
+An optional argument is possible for the desired padding.
 
-### Examples
+## Configuration
 
-**Input**
-
+``` kak
+map global user 0 ': pad-number %val{count}<ret>' -docstring 'Pad numbers with leading zeros'
 ```
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-```
-
-**Output**
-
-```
-01
-02
-03
-04
-05
-06
-07
-08
-09
-10
-```
-
-## Commands
-
-- `pad-number`: Pad number with `[n]` leading zeroes.
 
 [Kakoune]: https://kakoune.org
-[IRC]: https://webchat.freenode.net/#kakoune
-[IRC Badge]: https://img.shields.io/badge/IRC-%23kakoune-blue.svg
-[Pathogen]: https://github.com/alexherbo2/pathogen.kak
