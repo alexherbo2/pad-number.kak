@@ -6,6 +6,10 @@ Pad numbers with leading zeros.
 
 Add [`pad-number.kak`](rc/pad-number.kak) to your autoload or source it manually.
 
+``` kak
+require-module pad-number
+```
+
 ## Usage
 
 Select a number or multiple numbers and call `pad-number`.

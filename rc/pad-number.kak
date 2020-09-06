@@ -18,5 +18,3 @@ provide-module pad-number %{
     }
   }
 }
-
-require-module pad-number
