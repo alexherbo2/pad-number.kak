@@ -18,7 +18,7 @@ An optional argument is possible for the desired padding.
 ## Configuration
 
 ``` kak
-map global user -docstring 'Pad numbers with leading zeros' 0 ': pad-number %val{count}<ret>'
+map -docstring 'Pad numbers with leading zeros' global user 0 ': pad-number %val{count}<ret>'
 ```
 
 [Kakoune]: https://kakoune.org
